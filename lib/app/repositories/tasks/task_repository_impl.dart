@@ -1,0 +1,3 @@
+class TaskRepositoryImpl implements TaskRepository {
+    
+}
