@@ -1,3 +1,3 @@
-abstract class TaskRepository {
+abstract class TasksService {
   Future<void> save(DateTime date, String description);
 }
