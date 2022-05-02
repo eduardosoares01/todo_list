@@ -40,7 +40,8 @@ class _RegisterPageState extends State<RegisterPage> {
         context: context,
         successCallback: (notifier, listenerInstance) {
           listenerInstance.dispose();
-          Navigator.of(context).pop();
+          // Removemos esse popo devido a alteração do AuthProvider
+          // Navigator.of(context).pop();
         });
     /*
     context.read<RegisterController>().addListener(() {
